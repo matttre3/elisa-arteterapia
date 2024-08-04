@@ -8,6 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        rachelya: ['Rachelya','sans-serif'],
+        anaheimregular: ['Anaheim-Regular', 'sans-serif'],
+        anaheimmedium:  ['Anaheim-Medium', 'sans-serif'],
+        anaheimbold: ['Anaheim-Bold', 'sans-serif'],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
