@@ -2,16 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="container mx-auto">
-      <div className="font-rachelya text-4xl">
-      ELISA DAOLIO
-      </div>
-      <div className="font-anaheimregular text-4xl">
-        prova anaheim
-      </div>
-      <div className="font-anaheimbold text-4xl ">
-        prova anaheim
-      </div>
+    <div className="container mx-auto pl-5 pr-5 sm:pl-0 sm:pr-0">
+      <div className="font-anaheimregular text-6xl">Contenuto di prova</div>
     </div>
   );
 }
