@@ -39,7 +39,13 @@ export default function MobileNavbar() {
         transition={{ type: "spring", stiffness: 200, damping: 25 }}
         className="fixed left-0 top-0 z-40 flex h-full w-full items-center justify-center bg-white"
       >
-        <Links mobile={true} />
+        <div
+          onClick={() => {
+            setOpen(false);
+          }}
+        >
+          <Links mobile={true} />
+        </div>
       </motion.div>
     </>
   );
