@@ -1,27 +1,27 @@
 @font-face {
-  font-family: 'Rachelya';
-  src: url('../public/fonts/Rachelya.ttf') format('truetype');
+  font-family: "Rachelya";
+  src: url("/fonts/Rachelya.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Anaheim-Regular';
-  src: url('../public/fonts/Anaheim-Regular.ttf') format('truetype');
+  font-family: "Anaheim-Regular";
+  src: url("/fonts/Anaheim-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Anaheim-Medium';
-  src: url('../public/fonts/Anaheim-Medium.ttf') format('truetype');
+  font-family: "Anaheim-Medium";
+  src: url("/fonts/Anaheim-Medium.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Anaheim-Bold';
-  src: url('../public/fonts/Anaheim-bold.ttf') format('truetype');
+  font-family: "Anaheim-Bold";
+  src: url("/fonts/Anaheim-bold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
