@@ -13,8 +13,12 @@ export default function Logo() {
             d="M150,150 m-100,0 a100,100 0 1,1 200,0 a100,100 0 1,1 -200,0"
           />
         </defs>
-        <text className="font-anaheimregular" font-size="20" fill="black">
-          <textPath href="#circlePath" startOffset="1.5%">
+        <text
+          className="font-anaheimmedium tracking-[2px]"
+          font-size="17"
+          fill="#353535"
+        >
+          <textPath href="#circlePath" startOffset="0%">
             SPECIALISTA ARTETERAPEUTA MILANO
           </textPath>
         </text>

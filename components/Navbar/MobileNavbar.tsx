@@ -37,7 +37,7 @@ export default function MobileNavbar() {
         initial={{ x: "-100%" }}
         animate={isOpen ? { x: 0 } : { x: "-100%" }}
         transition={{ type: "spring", stiffness: 200, damping: 25 }}
-        className="fixed left-0 top-0 z-40 flex h-full w-full items-center justify-center bg-white"
+        className="bg-white fixed left-0 top-0 z-40 flex h-full w-full items-center justify-center"
       >
         <div
           onClick={() => {
