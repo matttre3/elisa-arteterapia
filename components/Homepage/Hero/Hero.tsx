@@ -7,7 +7,7 @@ export default function Hero() {
       <Logo></Logo>
       <div className="flex flex-col items-center justify-center">
         <div className="relative">
-          <h1 className="relative z-50 font-rachelya text-5xl text-standard sm:text-8xl md:text-9xl lg:text-[200px]">
+          <h1 className="relative z-10 font-rachelya text-5xl text-standard sm:text-8xl md:text-9xl lg:text-[200px]">
             ELISA DAOLIO
           </h1>
         </div>
