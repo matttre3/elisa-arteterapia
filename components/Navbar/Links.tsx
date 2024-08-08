@@ -3,19 +3,16 @@ type LinksProps = {
 };
 
 import Link from "next/link";
+import SingleLink from "./SingleLink";
 
 export default function Links({ mobile }: LinksProps) {
   return (
     <>
       {!mobile && (
         <div className="hidden lg:block">
-          <ul className="text-bold flex items-center justify-between text-standard">
-            <li className="font-anaheimmedium text-2xl">
-              <Link href="/portfolio">Portfolio</Link>
-            </li>
-            <li className="font-anaheimmedium text-2xl">
-              <Link href="/servizi">Servizi</Link>
-            </li>
+          <ul className="text-bold text-standard flex items-center justify-between">
+            <SingleLink>Portfolio</SingleLink>
+            <SingleLink>Servizi</SingleLink>
             <li>
               <Link
                 className="flex flex-col items-center justify-center font-rachelya"
@@ -27,12 +24,8 @@ export default function Links({ mobile }: LinksProps) {
                 </span>
               </Link>
             </li>
-            <li className="font-anaheimmedium text-2xl">
-              <Link href="/contatti">Contatti</Link>
-            </li>
-            <li className="font-anaheimmedium text-2xl">
-              <Link href="/chi-sono">Chi sono</Link>
-            </li>
+            <SingleLink>Contatti</SingleLink>
+            <SingleLink>Chi sono</SingleLink>
           </ul>
         </div>
       )}
