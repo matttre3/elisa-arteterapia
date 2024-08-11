@@ -11,7 +11,7 @@ export default function About() {
       </h3>
       <p className="text-center font-anaheimregular text-xl tracking-widest text-standard md:text-2xl">
         Sono Elisa, <strong>psicologa e arteterapeuta</strong> con una laurea in
-        Psicologia e magistrale in Arteterapia. Combinando l'arte con la
+        Psicologia e magistrale in Arteterapia. Combinando l&apos;arte con la
         psicologia, ti aiuto a scoprire e comprendere le tue emozioni in modo
         creativo e profondo. Se cerchi un percorso autentico e sensibile per il
         tuo benessere, sarò felice di accompagnarti.
@@ -50,7 +50,7 @@ export default function About() {
         className="md:text-2l mt-14 w-80 border-2 border-slate-600 p-4 text-center font-anaheimmedium text-xl tracking-widest text-standard transition-all hover:bg-sky-200 md:w-[500px] lg:text-2xl"
         href="/servizi"
       >
-        SCOPRI DI PIU'
+        SCOPRI DI PIU&apos;
       </Link>
     </div>
   );
