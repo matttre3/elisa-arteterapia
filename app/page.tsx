@@ -1,5 +1,11 @@
+import About from "@/components/Homepage/About";
 import Hero from "@/components/Homepage/Hero/Hero";
 
 export default function Home() {
-  return <Hero></Hero>;
+  return (
+    <>
+      <Hero></Hero>
+      <About></About>
+    </>
+  );
 }
