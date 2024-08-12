@@ -22,6 +22,10 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "workshop-service": "url(/images/workshop-service.png)",
+        "aziende-service": "url(/images/aziende-service.png)",
+        "individuali-service": "url(/images/individuali-service.png)",
+        "bambini-service": "url(/images/bambini-service.png)",
       },
     },
   },
