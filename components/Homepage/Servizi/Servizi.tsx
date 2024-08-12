@@ -41,7 +41,7 @@ export default function Servizi() {
         </h2>
         <p className="text-center font-anaheimregular text-xl tracking-widest text-standard md:text-2xl">
           Scopri come posso aiutarti a raggiungere il <strong>benessere</strong>{" "}
-          attraverso <strong>l'arte e la terapia</strong>
+          attraverso <strong>l&apos;arte e la terapia</strong>
         </p>
         <div className="flex flex-col flex-wrap gap-10 lg:flex-row">
           {content.map((singleService, index) => {
