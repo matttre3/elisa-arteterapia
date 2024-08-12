@@ -35,33 +35,36 @@ export default function Servizi() {
 
   return (
     <>
-      <div className="mt-24 flex flex-col items-center justify-center gap-4">
-        <h2 className="font-anaheimbold text-4xl tracking-widest text-standard md:text-5xl">
-          Servizi
-        </h2>
-        <p className="text-center font-anaheimregular text-xl tracking-widest text-standard md:text-2xl">
-          Scopri come posso aiutarti a raggiungere il <strong>benessere</strong>{" "}
-          attraverso <strong>l&apos;arte e la terapia</strong>
-        </p>
-        <div className="flex flex-col flex-wrap gap-10 lg:flex-row">
-          {content.map((singleService, index) => {
-            return (
-              <ServiceCard
-                key={index}
-                title={singleService.title}
-                description={singleService.description}
-                color={singleService.color}
-                image={singleService.image}
-              ></ServiceCard>
-            );
-          })}
+      <div className="container mx-auto pl-5 pr-5 sm:pl-0 sm:pr-0">
+        <div className="mt-12 flex flex-col items-center justify-center gap-4">
+          <h2 className="font-anaheimbold text-4xl tracking-widest text-standard md:text-5xl">
+            Servizi
+          </h2>
+          <p className="text-center font-anaheimregular text-xl tracking-widest text-standard md:text-2xl">
+            Scopri come posso aiutarti a raggiungere il{" "}
+            <strong>benessere</strong> attraverso{" "}
+            <strong>l&apos;arte e la terapia</strong>
+          </p>
+          <div className="flex flex-col flex-wrap gap-10 lg:flex-row">
+            {content.map((singleService, index) => {
+              return (
+                <ServiceCard
+                  key={index}
+                  title={singleService.title}
+                  description={singleService.description}
+                  color={singleService.color}
+                  image={singleService.image}
+                ></ServiceCard>
+              );
+            })}
+          </div>
+          <Link
+            className="md:text-2l mt-14 w-80 border-2 border-slate-600 p-4 text-center font-anaheimmedium text-xl tracking-widest text-standard transition-all hover:bg-sky-200 md:w-[500px] lg:text-2xl"
+            href="/servizi"
+          >
+            SCOPRI I MIEI SERVIZI
+          </Link>
         </div>
-        <Link
-          className="md:text-2l mt-14 w-80 border-2 border-slate-600 p-4 text-center font-anaheimmedium text-xl tracking-widest text-standard transition-all hover:bg-sky-200 md:w-[500px] lg:text-2xl"
-          href="/servizi"
-        >
-          SCOPRI I MIEI SERVIZI
-        </Link>
       </div>
     </>
   );
