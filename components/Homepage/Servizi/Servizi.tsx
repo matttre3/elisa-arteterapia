@@ -27,7 +27,7 @@ export default function Servizi() {
     {
       title: "ARTETERAPIA PER BAMBINI",
       description:
-        "Sessioni specializzate per i più giovani, con un approccio adatto all’età, per aiutarli a esprimere emozioni e affrontare difficoltà.",
+        "Sessioni specializzate per i più giovani, con un approccio adatto all&apos;età, per aiutarli a esprimere emozioni e affrontare difficoltà.",
       color: "bg-fuchsia-200",
       image: "bg-bambini-service",
     },
@@ -44,9 +44,10 @@ export default function Servizi() {
           attraverso <strong>l'arte e la terapia</strong>
         </p>
         <div className="flex flex-col flex-wrap gap-10 lg:flex-row">
-          {content.map((singleService) => {
+          {content.map((singleService, index) => {
             return (
               <ServiceCard
+                key={index}
                 title={singleService.title}
                 description={singleService.description}
                 color={singleService.color}
