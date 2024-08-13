@@ -16,7 +16,7 @@ export default function HeroTextAndCTA() {
           SPECIALISTA ARTETERAPEUTA A MILANO
         </h2>
         <Link
-          className="md:text-2l border-2 border-slate-600 p-4 font-anaheimmedium text-xl tracking-widest text-standard transition-all hover:bg-sky-200 lg:text-2xl"
+          className="md:text-2l border-2 border-slate-600 p-4 font-anaheimmedium text-xl tracking-widest text-standard transition-all hover:bg-yellow-200 lg:text-2xl"
           href="/servizi"
         >
           SCOPRI I MIEI SERVIZI

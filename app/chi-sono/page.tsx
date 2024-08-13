@@ -1,3 +1,3 @@
 export default function page() {
-  return <div>Chi sono</div>;
+  return <div className="container mx-auto mt-24">Chi sono</div>;
 }

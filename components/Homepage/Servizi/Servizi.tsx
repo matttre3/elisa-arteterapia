@@ -27,7 +27,7 @@ export default function Servizi() {
     {
       title: "ARTETERAPIA PER BAMBINI",
       description:
-        "Sessioni specializzate per i più giovani, con un approccio adatto all&apos;età, per aiutarli a esprimere emozioni e affrontare difficoltà.",
+        "Sessioni specializzate per i più giovani, con un approccio adatto alla loro età, per aiutarli a esprimere emozioni e affrontare difficoltà.",
       color: "bg-fuchsia-200",
       image: "bg-bambini-service",
     },
