@@ -10,7 +10,7 @@ export default function Links({ mobile }: LinksProps) {
     <>
       {!mobile && (
         <div className="hidden lg:block">
-          <ul className="text-bold text-standard flex items-center justify-between">
+          <ul className="text-bold flex items-center justify-between text-standard">
             <SingleLink>Portfolio</SingleLink>
             <SingleLink>Servizi</SingleLink>
             <li>
