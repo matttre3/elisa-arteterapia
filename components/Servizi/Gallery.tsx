@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { useCallback, useEffect } from "react";
 import Image from "next/image";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
@@ -12,19 +12,13 @@ type GalleryProps = {
 export default function Gallery({ galleryType, images }: GalleryProps) {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: false }, [Autoplay()]);
 
-  useEffect(() => {
-    if (emblaApi) {
-      console.log(emblaApi.slideNodes());
-    }
-  }, [emblaApi]);
-
   return (
     <>
       <div className="container">
         <div className="overflow-hidden" ref={emblaRef}>
-          <div className="flex gap-10">
+          <div className="flex gap-5 md:gap-10">
             {images.map((image, index) => (
-              <div key={index} className="flex-[0_0_50%] md:flex-[0_0_32%]">
+              <div key={index} className="flex-[0_0_50%] md:flex-[0_0_31.6%]">
                 <Image src={image} alt="prova" width={600} height={200} />
               </div>
             ))}

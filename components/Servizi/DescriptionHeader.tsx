@@ -18,6 +18,9 @@ export default function DescriptionHeader({
 }: DescriptionHeaderProps) {
   return (
     <div className="container mx-auto pl-5 pr-5 sm:pl-0 sm:pr-0">
+      <div className="mb-10 flex justify-center lg:hidden">
+        <Image src={imageSrc} alt={imageAlt} width={530} height={590} />
+      </div>
       <h3 className="font-anaheimbold text-xl tracking-wider text-gray-500 md:text-3xl">
         {category}
       </h3>
@@ -32,7 +35,7 @@ export default function DescriptionHeader({
           ></p>
         </div>
 
-        <div>
+        <div className="hidden lg:block">
           <Image src={imageSrc} alt={imageAlt} width={530} height={590} />
         </div>
       </div>
