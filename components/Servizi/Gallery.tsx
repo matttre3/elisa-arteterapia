@@ -24,12 +24,11 @@ export default function Gallery({ galleryType, images }: GalleryProps) {
         <div className="overflow-hidden" ref={emblaRef}>
           <div className="flex gap-10">
             {images.map((image, index) => (
-              <div className="flex-[0_0_33%]">
+              <div className="flex-[0_0_50%] md:flex-[0_0_32%]">
                 <Image
                   key={index}
                   src={image}
                   alt="prova"
-                  className="cursor-pointer object-cover"
                   width={600}
                   height={200}
                 />
