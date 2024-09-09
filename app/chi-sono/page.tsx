@@ -15,8 +15,8 @@ export default function page() {
             </h3>
             <p className="text-left font-anaheimregular text-xl tracking-widest text-standard md:text-2xl">
               Sono Elisa, un&apos; <strong>arteterapeuta</strong> con un
-              profondo <strong>amore per l'arte</strong> e la cura del benessere
-              emotivo. Attraverso l'arte, offro uno
+              profondo <strong>amore per l&apos;arte</strong> e la cura del
+              benessere emotivo. Attraverso l&apos;arte, offro uno
               <strong> spazio sicuro </strong> e stimolante dove esplorare e
               comprendere le emozioni in maniera creativa e autentica. Il mio
               obiettivo è quello di accompagnare le persone in un{" "}
@@ -27,8 +27,8 @@ export default function page() {
               Attraverso percorsi artistici su misura, è possibile esplorare le
               proprie emozioni, superare le difficoltà e scoprire nuove risorse
               interiori per vivere una vita più piena e soddisfacente. Credo
-              fermamente che l'arte, in tutte le sue forme, sia uno strumento
-              potente per il benessere psicologico, capace di{" "}
+              fermamente che l&apos;arte, in tutte le sue forme, sia uno
+              strumento potente per il benessere psicologico, capace di{" "}
               <strong>trasformare il dolore in espressione artistica.</strong>
             </p>
           </div>
@@ -42,7 +42,7 @@ export default function page() {
           </h2>
           <p className="text-left font-anaheimregular text-xl tracking-widest text-standard md:text-2xl">
             Durante il mio percorso, ho approfondito le tecniche e i metodi che
-            favoriscono l'espressione creativa come strumento di crescita
+            favoriscono l&apos;espressione creativa come strumento di crescita
             personale e guarigione. Questo mi consente di offrire un supporto
             mirato e adattato alle esigenze specifiche di ciascun individuo e
             diversi contesti.{" "}
@@ -93,7 +93,7 @@ export default function page() {
               Cos&apos;è l&apos;arte terapia?
             </h2>
             <h3 className="text-left font-anaheimbold text-2xl tracking-wider text-gray-500 md:text-3xl">
-              E PIANIFICHIAMO IL TUO PERCORSO
+              Scopri come l&apos;arte può trasformare la tua vita
             </h3>
             <p className="text-left font-anaheimregular text-xl tracking-widest text-standard md:text-2xl">
               Il termine "Terapeutica" deriva etimologicamente dal latino
@@ -112,10 +112,10 @@ export default function page() {
       <div className="container mx-auto pl-5 pr-5 sm:pl-0 sm:pr-0">
         <div className="flex flex-col justify-center gap-4 pb-12 pt-12">
           <h2 className="text-left font-anaheimbold text-4xl tracking-widest text-standard md:text-5xl">
-            A Cosa Serve l'Arte Terapia?
+            A Cosa Serve l&apos;Arte Terapia?
           </h2>
           <h3 className="text-left font-anaheimbold text-2xl tracking-wider text-gray-500 md:text-3xl">
-            E PIANIFICHIAMO IL TUO PERCORSO
+            Un Percorso di Cura Attraverso l&apos;Espressione Creativa
           </h3>
           <p className="text-left font-anaheimregular text-xl tracking-widest text-standard md:text-2xl">
             Nell&apos;ambito della terapeutica artistica, il colore ha un ruolo
