@@ -96,9 +96,10 @@ export default function page() {
               Scopri come l&apos;arte può trasformare la tua vita
             </h3>
             <p className="text-left font-anaheimregular text-xl tracking-widest text-standard md:text-2xl">
-              Il termine "Terapeutica" deriva etimologicamente dal latino
-              "Therapèutica" e dal greco "Therapheytkè", e significa "arte della
-              cura". Come artista terapista, non mi limito a prendermi cura
+              Il termine &quot;Terapeutica&quot; deriva etimologicamente dal
+              latino &quot;Therapèutica&quot; e dal greco
+              &quot;Therapheytkè&quot;, e significa &quot;arte della cura&quot;.
+              Come artista terapista, non mi limito a prendermi cura
               dell&apos;altro, ma piuttosto apro la possibilità per le persone
               di prendersi cura di sé stesse, attraverso il linguaggio
               dell&apos;arte. Il mio obiettivo è guidare ciascuno nel viaggio
