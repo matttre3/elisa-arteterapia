@@ -5,9 +5,7 @@ import Link from "next/link";
 export default function contatti() {
   const images = [
     "/images/DR1.png",
-
     "/images/MM-1.png",
-
     "/images/colori-1.png",
     "/images/MM-2.png",
     "/images/DR2.png",
