@@ -6,31 +6,50 @@ export default function page() {
     <>
       <div className="mt-24 bg-sky-100">
         <div className="container mx-auto pl-5 pr-5 sm:pl-0 sm:pr-0">
-          <div className="flex flex-col justify-center gap-4 pb-12 pt-12">
-            <h2 className="font-anaheimbold text-4xl tracking-widest text-standard md:text-5xl">
-              Chi sono?
-            </h2>
-            <h3 className="text-left font-anaheimbold text-2xl tracking-wider text-gray-500 md:text-3xl">
-              E PIANIFICHIAMO IL TUO PERCORSO
-            </h3>
-            <p className="text-left font-anaheimregular text-xl tracking-widest text-standard md:text-2xl">
-              Sono Elisa, un&apos; <strong>arteterapeuta</strong> con un
-              profondo <strong>amore per l&apos;arte</strong> e la cura del
-              benessere emotivo. Attraverso l&apos;arte, offro uno
-              <strong> spazio sicuro </strong> e stimolante dove esplorare e
-              comprendere le emozioni in maniera creativa e autentica. Il mio
-              obiettivo è quello di accompagnare le persone in un{" "}
-              <strong>
-                viaggio interiore che promuove la consapevolezza di sé e la
-                crescita personale.
-              </strong>{" "}
-              Attraverso percorsi artistici su misura, è possibile esplorare le
-              proprie emozioni, superare le difficoltà e scoprire nuove risorse
-              interiori per vivere una vita più piena e soddisfacente. Credo
-              fermamente che l&apos;arte, in tutte le sue forme, sia uno
-              strumento potente per il benessere psicologico, capace di{" "}
-              <strong>trasformare il dolore in espressione artistica.</strong>
-            </p>
+          <div className="flex flex-col items-center justify-between gap-14 pb-12 pt-12 md:flex-row">
+            <div className="flex flex-col gap-4 md:w-2/3">
+              <h2 className="font-anaheimbold text-4xl tracking-widest text-standard md:text-5xl">
+                Chi sono?
+              </h2>
+              <h3 className="text-left font-anaheimbold text-2xl tracking-wider text-gray-500 md:text-3xl">
+                E PIANIFICHIAMO IL TUO PERCORSO
+              </h3>
+              <p className="text-left font-anaheimregular text-xl tracking-widest text-standard md:text-2xl">
+                Sono Elisa, un&apos; <strong>arteterapeuta</strong> con un
+                profondo <strong>amore per l&apos;arte</strong> e la cura del
+                benessere emotivo. Attraverso l&apos;arte, offro uno
+                <strong> spazio sicuro </strong> e stimolante dove esplorare e
+                comprendere le emozioni in maniera creativa e autentica. Il mio
+                obiettivo è quello di accompagnare le persone in un{" "}
+                <strong>
+                  viaggio interiore che promuove la consapevolezza di sé e la
+                  crescita personale.
+                </strong>{" "}
+                Attraverso percorsi artistici su misura, è possibile esplorare
+                le proprie emozioni, superare le difficoltà e scoprire nuove
+                risorse interiori per vivere una vita più piena e soddisfacente.
+                Credo fermamente che l&apos;arte, in tutte le sue forme, sia uno
+                strumento potente per il benessere psicologico, capace di{" "}
+                <strong>trasformare il dolore in espressione artistica.</strong>
+              </p>
+              <Link
+                className="md:text-2l mt-4 w-fit border-2 border-slate-600 p-4 font-anaheimmedium text-xl tracking-widest text-standard transition-all hover:bg-yellow-200 lg:text-2xl"
+                href="/documents/cv-elisa.pdf"
+                target="_blank"
+                download
+              >
+                SCARICA IL MIO CURRICULUM
+              </Link>
+            </div>
+            <div>
+              <Image
+                className="relative z-0 w-96"
+                src="/images/foto-elisa.jpg"
+                alt="laurea elisa daolio"
+                width={400}
+                height={400}
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -76,10 +95,10 @@ export default function page() {
             <div className="relative">
               <Image
                 className="relative z-0 w-80"
-                src="/images/elisa-laurea.png"
+                src="/images/foto_laurea.jpg"
                 alt="laurea elisa daolio"
-                width={200}
-                height={200}
+                width={600}
+                height={600}
               />
             </div>
           </div>

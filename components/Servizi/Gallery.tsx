@@ -4,6 +4,7 @@ import Image from "next/image";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import classNames from "classnames";
+import { motion, AnimatePresence } from "framer-motion"; // Importa Framer Motion
 
 type GalleryProps = {
   images: string[];
@@ -39,7 +40,7 @@ export default function Gallery({ images, photoType }: GalleryProps) {
                   alt="prova"
                   width={600}
                   height={200}
-                  onClick={() => openModal(image)}
+                  onClick={() => openModal(image)} // Apre il modal al cliccare sull'immagine
                   className="cursor-pointer"
                 />
               </div>
@@ -48,27 +49,40 @@ export default function Gallery({ images, photoType }: GalleryProps) {
         </div>
       </div>
 
-      {selectedImage && (
-        <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75"
-          onClick={closeModal}
-        >
-          <div className="relative">
-            <Image
-              src={selectedImage}
-              alt="Ingrandita"
-              width={photoType == "horizontal" ? 800 : 400}
-              height={photoType == "horizontal" ? 600 : 200}
-            />
-            <button
-              className="absolute right-2 top-2 text-2xl text-white"
-              onClick={closeModal}
+      {/* Modal per visualizzare l'immagine ingrandita */}
+      <AnimatePresence>
+        {selectedImage && (
+          <motion.div
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75"
+            onClick={closeModal}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2 }}
+          >
+            <motion.div
+              className="relative"
+              initial={{ scale: 0.8 }}
+              animate={{ scale: 1 }}
+              exit={{ scale: 0.8 }}
+              transition={{ duration: 0.2 }}
             >
-              &times;
-            </button>
-          </div>
-        </div>
-      )}
+              <Image
+                src={selectedImage}
+                alt="Ingrandita"
+                width={photoType == "horizontal" ? 500 : 400}
+                height={photoType == "horizontal" ? 600 : 200}
+              />
+              <button
+                className="absolute right-2 top-2 text-2xl text-white"
+                onClick={closeModal}
+              >
+                &times;
+              </button>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </>
   );
 }
