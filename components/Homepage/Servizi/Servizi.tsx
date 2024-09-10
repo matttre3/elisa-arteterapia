@@ -58,12 +58,6 @@ export default function Servizi() {
               );
             })}
           </div>
-          <Link
-            className="md:text-2l mt-14 w-80 border-2 border-slate-600 p-4 text-center font-anaheimmedium text-xl tracking-widest text-standard transition-all hover:bg-sky-200 md:w-[500px] lg:text-2xl"
-            href="/servizi"
-          >
-            SCOPRI I MIEI SERVIZI
-          </Link>
         </div>
       </div>
     </>
