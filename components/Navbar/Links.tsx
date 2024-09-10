@@ -11,8 +11,6 @@ export default function Links({ mobile }: LinksProps) {
       {!mobile && (
         <div className="hidden lg:block">
           <ul className="text-bold flex items-center justify-between text-standard">
-            <SingleLink>Portfolio</SingleLink>
-            <SingleLink>Servizi</SingleLink>
             <li>
               <Link
                 className="flex flex-col items-center justify-center font-rachelya"
@@ -24,6 +22,8 @@ export default function Links({ mobile }: LinksProps) {
                 </span>
               </Link>
             </li>
+            <SingleLink>Portfolio</SingleLink>
+
             <SingleLink>Contatti</SingleLink>
             <SingleLink>Chi sono</SingleLink>
           </ul>

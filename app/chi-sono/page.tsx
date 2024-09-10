@@ -1,7 +1,25 @@
+import Gallery from "@/components/Servizi/Gallery";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function page() {
+  const images = [
+    "/images/g1.jpg",
+    "/images/g2.jpeg",
+    "/images/g3.jpg",
+    "/images/g4.jpg",
+    "/images/g5.jpg",
+    "/images/g6.jpg",
+    "/images/g7.jpg",
+    "/images/g8.jpg",
+    "/images/g9.jpg",
+    "/images/g10.jpg",
+    "/images/g11.jpg",
+    "/images/g12.jpg",
+    "/images/g13.jpg",
+    "/images/g14.jpg",
+  ];
+
   return (
     <>
       <div className="mt-24 bg-sky-100">
@@ -107,7 +125,7 @@ export default function page() {
 
       <div className="mt-24 bg-yellow-100">
         <div className="container mx-auto pl-5 pr-5 sm:pl-0 sm:pr-0">
-          <div className="flex flex-col justify-center gap-4 pb-12 pt-12">
+          <div className="flex flex-col justify-center gap-4 pt-12">
             <h2 className="text-left font-anaheimbold text-4xl tracking-widest text-standard md:text-5xl">
               Cos&apos;è l&apos;arte terapia?
             </h2>
@@ -125,6 +143,9 @@ export default function page() {
               alla scoperta della propria creatività, attivando il processo
               creativo e sostenendo l&apos;evoluzione personale.
             </p>
+          </div>
+          <div className="pb-10">
+            <Gallery photoType={"vertical"} images={images}></Gallery>
           </div>
         </div>
       </div>
