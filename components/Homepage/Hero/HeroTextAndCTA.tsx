@@ -17,9 +17,9 @@ export default function HeroTextAndCTA() {
         </h2>
         <Link
           className="md:text-2l border-2 border-slate-600 p-4 font-anaheimmedium text-xl tracking-widest text-standard transition-all hover:bg-yellow-200 lg:text-2xl"
-          href="/servizi"
+          href="/portfolio"
         >
-          SCOPRI I MIEI SERVIZI
+          SCOPRI I PROGETTI
         </Link>
       </div>
     </div>
