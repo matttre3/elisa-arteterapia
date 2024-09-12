@@ -23,7 +23,6 @@ export default function Links({ mobile }: LinksProps) {
               </Link>
             </li>
             <SingleLink>Portfolio</SingleLink>
-
             <SingleLink>Contatti</SingleLink>
             <SingleLink>Chi sono</SingleLink>
           </ul>
@@ -38,9 +37,6 @@ export default function Links({ mobile }: LinksProps) {
             </li>
             <li className="font-anaheimmedium text-2xl">
               <Link href="/portfolio">Portfolio</Link>
-            </li>
-            <li className="font-anaheimmedium text-2xl">
-              <Link href="/servizi">Servizi</Link>
             </li>
             <li className="font-anaheimmedium text-2xl">
               <Link href="/contatti">Contatti</Link>
