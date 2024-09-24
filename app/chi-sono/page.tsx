@@ -62,7 +62,7 @@ export default function page() {
             <div>
               <Image
                 className="relative z-0 w-96"
-                src="/images/foto-elisa.jpg"
+                src="/images/foto-elisa.JPG"
                 alt="laurea elisa daolio"
                 width={400}
                 height={400}
@@ -113,7 +113,7 @@ export default function page() {
             <div className="relative">
               <Image
                 className="relative z-0 w-80"
-                src="/images/foto_laurea.jpg"
+                src="/images/foto_laurea.JPG"
                 alt="laurea elisa daolio"
                 width={600}
                 height={600}
