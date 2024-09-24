@@ -42,9 +42,11 @@ export default function Contact() {
               width={30}
               height={400}
             ></Image>
-            <p className="font-anaheimregular text-xl tracking-widest text-standard md:text-2xl">
-              elisa.daolio@gmail.com
-            </p>
+            <Link href="mailto:elisadaolio16@gmail.com">
+              <p className="font-anaheimregular text-xl tracking-widest text-standard md:text-2xl">
+                elisadaolio16@gmail.com
+              </p>
+            </Link>
           </div>
         </div>
       </div>
