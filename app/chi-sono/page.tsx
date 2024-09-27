@@ -1,4 +1,5 @@
 import Gallery from "@/components/Servizi/Gallery";
+import Container from "@/components/ui/Container";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -23,7 +24,7 @@ export default function page() {
   return (
     <>
       <div className="mt-24 bg-sky-100">
-        <div className="container mx-auto pl-5 pr-5 sm:pl-0 sm:pr-0">
+        <Container>
           <div className="flex flex-col items-center justify-between gap-14 pb-12 pt-12 md:flex-row">
             <div className="flex flex-col gap-4 md:w-2/3">
               <h2 className="font-anaheimbold text-4xl tracking-widest text-standard md:text-5xl">
@@ -69,10 +70,10 @@ export default function page() {
               />
             </div>
           </div>
-        </div>
+        </Container>
       </div>
 
-      <div className="container mx-auto pl-5 pr-5 sm:pl-0 sm:pr-0">
+      <Container>
         <div className="flex flex-col items-center justify-center gap-4 pt-12">
           <h2 className="mb-4 font-anaheimbold text-4xl tracking-widest text-standard md:text-5xl">
             Qual&apos;é stato il mio percorso?
@@ -121,10 +122,10 @@ export default function page() {
             </div>
           </div>
         </div>
-      </div>
+      </Container>
 
       <div className="mt-24 bg-yellow-100">
-        <div className="container mx-auto pl-5 pr-5 sm:pl-0 sm:pr-0">
+        <Container>
           <div className="flex flex-col justify-center gap-4 pt-12">
             <h2 className="text-left font-anaheimbold text-4xl tracking-widest text-standard md:text-5xl">
               Cos&apos;è l&apos;arte terapia?
@@ -147,10 +148,10 @@ export default function page() {
           <div className="pb-10">
             <Gallery photoType={"vertical"} images={images}></Gallery>
           </div>
-        </div>
+        </Container>
       </div>
 
-      <div className="container mx-auto pl-5 pr-5 sm:pl-0 sm:pr-0">
+      <Container>
         <div className="flex flex-col justify-center gap-4 pb-12 pt-12">
           <h2 className="text-left font-anaheimbold text-4xl tracking-widest text-standard md:text-5xl">
             A Cosa Serve l&apos;Arte Terapia?
@@ -180,7 +181,7 @@ export default function page() {
             un&apos;espressione comune
           </p>
         </div>
-      </div>
+      </Container>
     </>
   );
 }

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import ServiceCard from "./ServiceCard";
+import Container from "@/components/ui/Container";
 
 export default function Servizi() {
   const content = [
@@ -35,7 +36,7 @@ export default function Servizi() {
 
   return (
     <>
-      <div className="container mx-auto pl-5 pr-5 sm:pl-0 sm:pr-0">
+      <Container>
         <div className="mt-12 flex flex-col items-center justify-center gap-4">
           <h2 className="font-anaheimbold text-4xl tracking-widest text-standard md:text-5xl">
             Servizi
@@ -59,7 +60,7 @@ export default function Servizi() {
             })}
           </div>
         </div>
-      </div>
+      </Container>
     </>
   );
 }

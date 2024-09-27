@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import ImageSlider from "./Progetti/ImageSlider";
+import Container from "../ui/Container";
 export default function Progetti() {
   return (
     <div className="mt-12 bg-yellow-100">
-      <div className="container mx-auto pl-5 pr-5 sm:pl-0 sm:pr-0">
+      <Container>
         <div className="flex flex-col items-center justify-center gap-4 pb-12 pt-12">
           <h2 className="font-anaheimbold text-4xl tracking-widest text-standard md:text-5xl">
             I miei progetti
@@ -30,7 +31,7 @@ export default function Progetti() {
             SCOPRI I MIEI PROGETTI
           </Link>
         </div>
-      </div>
+      </Container>
     </div>
   );
 }

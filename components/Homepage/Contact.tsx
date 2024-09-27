@@ -1,10 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Container from "../ui/Container";
 
 export default function Contact() {
   return (
-    <div className="container mx-auto pl-5 pr-5 sm:pl-0 sm:pr-0">
+    <Container>
       <div className="flex flex-col items-center justify-center gap-4 pb-12 pt-12">
         <h2 className="font-anaheimbold text-4xl tracking-widest text-standard md:text-5xl">
           Contattami
@@ -50,6 +51,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-    </div>
+    </Container>
   );
 }
