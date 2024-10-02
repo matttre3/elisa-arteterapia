@@ -4,10 +4,10 @@ import Gallery from "./Gallery";
 
 export default function Memorie() {
   const images = [
-    "/images/MM-1.png",
-    "/images/MM-2.png",
-    "/images/MM-3.png",
-    "/images/MM-4.png",
+    "/images/MM2.jpg",
+    "/images/MM1.jpg",
+    "/images/MM3.jpg",
+    "/images/MM4.jpg",
   ];
 
   return (

@@ -4,15 +4,15 @@ import Gallery from "./Gallery";
 
 export default function DanzaRossa() {
   const images = [
-    "/images/DR1.png",
+    "/images/DR1.JPG",
+    "/images/DR2.JPG",
     "/images/DR7.jpg",
-    "/images/DR2.png",
-    "/images/DR3.png",
+    "/images/DR3.JPG",
     "/images/DR8.jpg",
-    "/images/DR4.png",
-    "/images/DR5.png",
+    "/images/DR5.JPG",
+    "/images/DR4.JPG",
+    "/images/DR6.JPG",
     "/images/DR9.jpg",
-    "/images/DR6.png",
   ];
 
   return (
