@@ -70,6 +70,7 @@ export default function Gallery({ images, photoType }: GalleryProps) {
               <Image
                 src={selectedImage}
                 alt="Ingrandita"
+                className="max-h-screen w-full"
                 width={photoType == "horizontal" ? 500 : 400}
                 height={photoType == "horizontal" ? 600 : 200}
               />
